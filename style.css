@@ -332,6 +332,45 @@ section{
     font-size: 1.6rem;
 }
 
+.internships{
+    background-color: var(--second-bg-colour);
+}
+.internships-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+   place-items: center;
+   gap: 3rem;
+   row-gap: 5rem;
+}
+.internship-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--bg-colour);
+    border: 2px solid var(--main-colour);
+    border-radius: 3rem;
+    gap: 2rem;
+    padding: 5rem 2rem;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 0 5px var(--main-colour);
+    transition: 0.3s ease;
+}
+.internship-card:hover{
+    box-shadow: 0 0 25px var(--main-colour),
+                0 0 50px var(--main-colour);
+                transform: scale(1.02);
+}
+
+.internship-card h3{
+    font-size: 3rem;
+}
+.internship-card p{
+    font-size: 1.9rem;
+}
+
 
 .contact{
     background-color: var(--bg-colour);
