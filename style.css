@@ -218,6 +218,8 @@ section{
 }
 .about-content {
     font-size: 1.8rem;
+    word-spacing: 0.4rem;   
+    line-height: 2; 
 }
 .about-content .btn{
     margin: 3rem 0;
@@ -330,6 +332,8 @@ section{
 }
 .project-card p{
     font-size: 1.6rem;
+    word-spacing: 0.35rem;
+    line-height: 1.9;
 }
 
 .internships{
@@ -369,6 +373,8 @@ section{
 }
 .internship-card p{
     font-size: 1.9rem;
+    word-spacing: 0.35rem;
+    line-height: 2;
 }
 
 
@@ -492,3 +498,4 @@ section{
         flex-direction: column;
     }
 }
+
